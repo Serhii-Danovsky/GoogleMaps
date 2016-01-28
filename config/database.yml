@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mapss_development
+  pool: 5
+  username: myapp
+  password: password1
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: mapss_test
+  pool: 5
+  username: myapp
+  password: password1
